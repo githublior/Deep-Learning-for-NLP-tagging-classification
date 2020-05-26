@@ -1,0 +1,74 @@
+Assignment 1 – Gradient-based Learning
+Answer to Part 5  - Adding a hidden layer
+
+Lev Levin 342480456
+Lior Shimon 341348498
+
+
+
+Question 1.
+While training our Log-linear Classifier Model ,  our best scores where :
+loss over the Train set :  0.3097
+accuracy over Train_set : 93.79% 
+accuracy over Dev_set :  86.33%
+
+our hyper-parameters where : 
+parameters initialization (W & b) :  zero matrix & zero vector
+ Vocabulary size = 600 
+learning rate = 0.001 
+epochs :  14
+
+
+However , after training our mlp Model of one hidden layer, our best score where:
+loss over the Train set :  0.1643
+accuracy over Train_set : 96.95% 
+accuracy over Dev_set :  85.66%
+
+our hyper-parameters where : 
+parameters initialization (W & b) :  Uniform Distribution with Glorot & Al’s value
+Vocabulary size : 600 
+hidden layer : 1.2 *  vocabulary size
+learning rate = 0.001 
+epochs :  14
+
+Hence we conclude that using a multi-layer perceptron do not enable to get better accuracy than the LogLinear Model for the language identification task.
+
+
+
+Question 2.
+
+after setting the feature of the language identification as letter-unigram,
+Using the  LogLinear Classifier, the best scores where:
+
+loss over the Train set :  0.6771
+accuracy over Train_set : 77.16% 
+accuracy over Dev_set :  66.0%
+hyperparameters: 
+ parameters initialization (W & b) :    Uniform Distribution with Glorot & Al’s 
+Vocabulary size : 800 
+learning rate = 0.001 
+epochs :  15
+
+Using MLP Classifier, the best scores we reached where: 
+loss over the Train set :  0.6629
+accuracy over Train_set : 79.00% 
+accuracy over Dev_set :  66.66%
+
+hyperparameters: 
+ parameters initialization (W & b) :    Uniform Distribution with Glorot & Al’s 
+Vocabulary size : 800 
+number of neurons in hidden layer  : 1.5 * vocabulary_size
+learning rate = 0.001 
+epochs :  8
+
+The Langage Identifaction Task with Unigrams features was less effective than the one with bigram features , wich seems to us pretty natural, since a pair of letter give us more information on the way a langage use the letters than just simple letters as input.
+Once again, the  MLP Model was not given really better accuracy and loss  than the Log Linear Model. 
+
+Question 3.
+
+Since our MLP Model is not linear , it can solve the XOR problem.
+Our model solves the XOR problem in 4 iterations (100% accuracy)  with parameters:
+parameters initialization (W & b) :  Uniform Distribution with Glorot & Al’s value
+Number of neurons in hidden layer : 100
+learning rate : 0.01
+Number of iteration : 4

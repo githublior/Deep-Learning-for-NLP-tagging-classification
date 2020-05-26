@@ -1,0 +1,519 @@
+INFO:torchtext.vocab:Downloading vectors from http://nlp.stanford.edu/data/glove.42B.300d.zip
+INFO:torchtext.vocab:Downloading vectors from http://nlp.stanford.edu/data/glove.42B.300d.zip
+INFO:torchtext.vocab:Extracting vectors into cached_vectors
+INFO:torchtext.vocab:Loading vectors from cached_vectors/glove.42B.300d.txt
+INFO:torchtext.vocab:Saving vectors to cached_vectors/glove.42B.300d.txt.pt
+INFO:root:Initializing the model with loaded pre_trained weights from file model_file
+INFO:torchtext.vocab:Loading vectors from cached_vectors/glove.42B.300d.txt.pt
+INFO:root:Initializing the model with loaded pre_trained weights from file model_file
+INFO:root:weights decay=1e-5, bach=16
+INFO:torchtext.vocab:Loading vectors from cached_vectors/glove.42B.300d.txt.pt
+INFO:torchtext.vocab:Loading vectors from cached_vectors/glove.42B.300d.txt.pt
+INFO:root:Initializing the model with loaded pre_trained weights from file model_file
+INFO:root:weights decay=1e-5, bach=16
+INFO:root:Training started...
+INFO:root:epoch number:1
+INFO:root:Epoch [0/300], Train_Loss: 1.237, Train_Accuracy: 51.54%, Dev Loss: 0.889, Dev_Accuracy: 58.53%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:2
+INFO:root:Epoch [1/300], Train_Loss: 1.074, Train_Accuracy: 56.83%, Dev Loss: 0.867, Dev_Accuracy: 60.26%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:3
+INFO:root:Epoch [2/300], Train_Loss: 1.012, Train_Accuracy: 58.54%, Dev Loss: 0.842, Dev_Accuracy: 62.30%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:4
+INFO:root:Epoch [3/300], Train_Loss: 0.977, Train_Accuracy: 59.70%, Dev Loss: 0.830, Dev_Accuracy: 62.81%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:5
+INFO:root:Epoch [4/300], Train_Loss: 0.954, Train_Accuracy: 60.34%, Dev Loss: 0.812, Dev_Accuracy: 63.76%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:6
+INFO:root:Epoch [5/300], Train_Loss: 0.938, Train_Accuracy: 60.89%, Dev Loss: 0.804, Dev_Accuracy: 64.34%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:7
+INFO:root:Epoch [6/300], Train_Loss: 0.924, Train_Accuracy: 61.54%, Dev Loss: 0.797, Dev_Accuracy: 65.60%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:8
+INFO:root:Epoch [7/300], Train_Loss: 0.913, Train_Accuracy: 61.97%, Dev Loss: 0.794, Dev_Accuracy: 65.61%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:9
+INFO:root:Epoch [8/300], Train_Loss: 0.904, Train_Accuracy: 62.43%, Dev Loss: 0.784, Dev_Accuracy: 65.65%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:10
+INFO:root:Epoch [9/300], Train_Loss: 0.897, Train_Accuracy: 62.79%, Dev Loss: 0.784, Dev_Accuracy: 65.94%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:11
+INFO:root:Epoch [10/300], Train_Loss: 0.890, Train_Accuracy: 62.88%, Dev Loss: 0.771, Dev_Accuracy: 66.48%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:12
+INFO:root:Epoch [11/300], Train_Loss: 0.884, Train_Accuracy: 63.33%, Dev Loss: 0.768, Dev_Accuracy: 66.92%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:13
+INFO:root:Epoch [12/300], Train_Loss: 0.878, Train_Accuracy: 63.74%, Dev Loss: 0.756, Dev_Accuracy: 67.51%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:14
+INFO:root:Epoch [13/300], Train_Loss: 0.873, Train_Accuracy: 64.31%, Dev Loss: 0.744, Dev_Accuracy: 68.26%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:15
+INFO:root:Epoch [14/300], Train_Loss: 0.868, Train_Accuracy: 64.76%, Dev Loss: 0.739, Dev_Accuracy: 68.45%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:16
+INFO:root:Epoch [15/300], Train_Loss: 0.863, Train_Accuracy: 65.07%, Dev Loss: 0.734, Dev_Accuracy: 68.90%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:17
+INFO:root:Epoch [16/300], Train_Loss: 0.858, Train_Accuracy: 65.42%, Dev Loss: 0.726, Dev_Accuracy: 69.24%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:18
+INFO:root:Epoch [17/300], Train_Loss: 0.854, Train_Accuracy: 65.72%, Dev Loss: 0.724, Dev_Accuracy: 69.95%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:19
+INFO:root:Epoch [18/300], Train_Loss: 0.850, Train_Accuracy: 66.04%, Dev Loss: 0.718, Dev_Accuracy: 70.08%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:20
+INFO:root:Epoch [19/300], Train_Loss: 0.846, Train_Accuracy: 66.25%, Dev Loss: 0.715, Dev_Accuracy: 70.28%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:21
+INFO:root:Epoch [20/300], Train_Loss: 0.842, Train_Accuracy: 66.54%, Dev Loss: 0.710, Dev_Accuracy: 70.38%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:22
+INFO:root:Epoch [21/300], Train_Loss: 0.839, Train_Accuracy: 66.67%, Dev Loss: 0.706, Dev_Accuracy: 70.83%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:23
+INFO:root:Epoch [22/300], Train_Loss: 0.835, Train_Accuracy: 66.94%, Dev Loss: 0.703, Dev_Accuracy: 70.74%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:24
+INFO:root:Epoch [23/300], Train_Loss: 0.832, Train_Accuracy: 67.08%, Dev Loss: 0.698, Dev_Accuracy: 71.09%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:25
+INFO:root:Epoch [24/300], Train_Loss: 0.829, Train_Accuracy: 67.21%, Dev Loss: 0.696, Dev_Accuracy: 71.12%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:26
+INFO:root:Epoch [25/300], Train_Loss: 0.826, Train_Accuracy: 67.24%, Dev Loss: 0.695, Dev_Accuracy: 71.41%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:27
+INFO:root:Epoch [26/300], Train_Loss: 0.823, Train_Accuracy: 67.36%, Dev Loss: 0.695, Dev_Accuracy: 71.48%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:28
+INFO:root:Epoch [27/300], Train_Loss: 0.821, Train_Accuracy: 67.56%, Dev Loss: 0.685, Dev_Accuracy: 71.90%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:29
+INFO:root:Epoch [28/300], Train_Loss: 0.818, Train_Accuracy: 67.74%, Dev Loss: 0.686, Dev_Accuracy: 71.72%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:30
+INFO:root:Epoch [29/300], Train_Loss: 0.816, Train_Accuracy: 67.98%, Dev Loss: 0.683, Dev_Accuracy: 72.16%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:31
+INFO:root:Epoch [30/300], Train_Loss: 0.813, Train_Accuracy: 68.02%, Dev Loss: 0.680, Dev_Accuracy: 71.95%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:32
+INFO:root:Epoch [31/300], Train_Loss: 0.811, Train_Accuracy: 68.18%, Dev Loss: 0.678, Dev_Accuracy: 72.27%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:33
+INFO:root:Epoch [32/300], Train_Loss: 0.809, Train_Accuracy: 68.28%, Dev Loss: 0.674, Dev_Accuracy: 72.36%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:34
+INFO:root:Epoch [33/300], Train_Loss: 0.806, Train_Accuracy: 68.33%, Dev Loss: 0.669, Dev_Accuracy: 72.55%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:35
+INFO:root:Epoch [34/300], Train_Loss: 0.804, Train_Accuracy: 68.50%, Dev Loss: 0.670, Dev_Accuracy: 72.46%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:36
+INFO:root:Epoch [35/300], Train_Loss: 0.802, Train_Accuracy: 68.50%, Dev Loss: 0.667, Dev_Accuracy: 72.39%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:37
+INFO:root:Epoch [36/300], Train_Loss: 0.800, Train_Accuracy: 68.61%, Dev Loss: 0.667, Dev_Accuracy: 72.73%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:38
+INFO:root:Epoch [37/300], Train_Loss: 0.799, Train_Accuracy: 68.70%, Dev Loss: 0.661, Dev_Accuracy: 72.83%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:39
+INFO:root:Epoch [38/300], Train_Loss: 0.797, Train_Accuracy: 68.81%, Dev Loss: 0.667, Dev_Accuracy: 72.76%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:40
+INFO:root:Epoch [39/300], Train_Loss: 0.795, Train_Accuracy: 68.92%, Dev Loss: 0.661, Dev_Accuracy: 72.87%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:41
+INFO:root:Epoch [40/300], Train_Loss: 0.793, Train_Accuracy: 69.04%, Dev Loss: 0.661, Dev_Accuracy: 72.75%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:42
+INFO:root:Epoch [41/300], Train_Loss: 0.791, Train_Accuracy: 69.15%, Dev Loss: 0.659, Dev_Accuracy: 73.03%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:43
+INFO:root:Epoch [42/300], Train_Loss: 0.790, Train_Accuracy: 69.24%, Dev Loss: 0.657, Dev_Accuracy: 73.27%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:44
+INFO:root:Epoch [43/300], Train_Loss: 0.788, Train_Accuracy: 69.26%, Dev Loss: 0.655, Dev_Accuracy: 73.43%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:45
+INFO:root:Epoch [44/300], Train_Loss: 0.787, Train_Accuracy: 69.38%, Dev Loss: 0.656, Dev_Accuracy: 73.00%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:46
+INFO:root:Epoch [45/300], Train_Loss: 0.785, Train_Accuracy: 69.49%, Dev Loss: 0.656, Dev_Accuracy: 73.27%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:47
+INFO:root:Epoch [46/300], Train_Loss: 0.784, Train_Accuracy: 69.46%, Dev Loss: 0.653, Dev_Accuracy: 73.70%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:48
+INFO:root:Epoch [47/300], Train_Loss: 0.782, Train_Accuracy: 69.60%, Dev Loss: 0.651, Dev_Accuracy: 73.47%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:49
+INFO:root:Epoch [48/300], Train_Loss: 0.781, Train_Accuracy: 69.63%, Dev Loss: 0.649, Dev_Accuracy: 73.92%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:50
+INFO:root:Epoch [49/300], Train_Loss: 0.779, Train_Accuracy: 69.69%, Dev Loss: 0.645, Dev_Accuracy: 73.84%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:51
+INFO:root:Epoch [50/300], Train_Loss: 0.778, Train_Accuracy: 69.78%, Dev Loss: 0.642, Dev_Accuracy: 73.74%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:52
+INFO:root:Epoch [51/300], Train_Loss: 0.777, Train_Accuracy: 69.87%, Dev Loss: 0.649, Dev_Accuracy: 73.69%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:53
+INFO:root:Epoch [52/300], Train_Loss: 0.775, Train_Accuracy: 69.95%, Dev Loss: 0.644, Dev_Accuracy: 74.25%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:54
+INFO:root:Epoch [53/300], Train_Loss: 0.774, Train_Accuracy: 70.03%, Dev Loss: 0.639, Dev_Accuracy: 74.30%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:55
+INFO:root:Epoch [54/300], Train_Loss: 0.773, Train_Accuracy: 70.11%, Dev Loss: 0.638, Dev_Accuracy: 74.42%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:56
+INFO:root:Epoch [55/300], Train_Loss: 0.771, Train_Accuracy: 70.25%, Dev Loss: 0.638, Dev_Accuracy: 74.15%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:57
+INFO:root:Epoch [56/300], Train_Loss: 0.770, Train_Accuracy: 70.33%, Dev Loss: 0.634, Dev_Accuracy: 74.38%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:58
+INFO:root:Epoch [57/300], Train_Loss: 0.769, Train_Accuracy: 70.11%, Dev Loss: 0.639, Dev_Accuracy: 74.09%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:59
+INFO:root:Epoch [58/300], Train_Loss: 0.768, Train_Accuracy: 70.26%, Dev Loss: 0.641, Dev_Accuracy: 74.22%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:60
+INFO:root:Epoch [59/300], Train_Loss: 0.767, Train_Accuracy: 70.26%, Dev Loss: 0.634, Dev_Accuracy: 74.60%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:61
+INFO:root:Epoch [60/300], Train_Loss: 0.766, Train_Accuracy: 70.30%, Dev Loss: 0.634, Dev_Accuracy: 74.62%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:62
+INFO:root:Epoch [61/300], Train_Loss: 0.764, Train_Accuracy: 70.47%, Dev Loss: 0.633, Dev_Accuracy: 74.44%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:63
+INFO:root:Epoch [62/300], Train_Loss: 0.763, Train_Accuracy: 70.50%, Dev Loss: 0.634, Dev_Accuracy: 74.31%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:64
+INFO:root:Epoch [63/300], Train_Loss: 0.762, Train_Accuracy: 70.61%, Dev Loss: 0.631, Dev_Accuracy: 74.54%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:65
+INFO:root:Epoch [64/300], Train_Loss: 0.761, Train_Accuracy: 70.54%, Dev Loss: 0.629, Dev_Accuracy: 74.71%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:66
+INFO:root:Epoch [65/300], Train_Loss: 0.760, Train_Accuracy: 70.70%, Dev Loss: 0.627, Dev_Accuracy: 74.72%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:67
+INFO:root:Epoch [66/300], Train_Loss: 0.759, Train_Accuracy: 70.67%, Dev Loss: 0.629, Dev_Accuracy: 74.67%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:68
+INFO:root:Epoch [67/300], Train_Loss: 0.758, Train_Accuracy: 70.81%, Dev Loss: 0.626, Dev_Accuracy: 74.96%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:69
+INFO:root:Epoch [68/300], Train_Loss: 0.757, Train_Accuracy: 70.84%, Dev Loss: 0.624, Dev_Accuracy: 75.20%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:70
+INFO:root:Epoch [69/300], Train_Loss: 0.756, Train_Accuracy: 70.93%, Dev Loss: 0.624, Dev_Accuracy: 74.93%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:71
+INFO:root:Epoch [70/300], Train_Loss: 0.755, Train_Accuracy: 70.94%, Dev Loss: 0.623, Dev_Accuracy: 75.34%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:72
+INFO:root:Epoch [71/300], Train_Loss: 0.754, Train_Accuracy: 71.12%, Dev Loss: 0.617, Dev_Accuracy: 75.07%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:73
+INFO:root:Epoch [72/300], Train_Loss: 0.753, Train_Accuracy: 71.12%, Dev Loss: 0.622, Dev_Accuracy: 75.19%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:74
+INFO:root:Epoch [73/300], Train_Loss: 0.752, Train_Accuracy: 71.12%, Dev Loss: 0.621, Dev_Accuracy: 75.06%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:75
+INFO:root:Epoch [74/300], Train_Loss: 0.751, Train_Accuracy: 71.12%, Dev Loss: 0.619, Dev_Accuracy: 75.07%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:76
+INFO:root:Epoch [75/300], Train_Loss: 0.750, Train_Accuracy: 71.23%, Dev Loss: 0.615, Dev_Accuracy: 75.26%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:77
+INFO:root:Epoch [76/300], Train_Loss: 0.749, Train_Accuracy: 71.32%, Dev Loss: 0.612, Dev_Accuracy: 75.13%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:78
+INFO:root:Epoch [77/300], Train_Loss: 0.749, Train_Accuracy: 71.41%, Dev Loss: 0.614, Dev_Accuracy: 75.17%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:79
+INFO:root:Epoch [78/300], Train_Loss: 0.748, Train_Accuracy: 71.44%, Dev Loss: 0.612, Dev_Accuracy: 75.51%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:80
+INFO:root:Epoch [79/300], Train_Loss: 0.747, Train_Accuracy: 71.31%, Dev Loss: 0.614, Dev_Accuracy: 75.06%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:81
+INFO:root:Epoch [80/300], Train_Loss: 0.746, Train_Accuracy: 71.13%, Dev Loss: 0.615, Dev_Accuracy: 75.29%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:82
+INFO:root:Epoch [81/300], Train_Loss: 0.745, Train_Accuracy: 71.25%, Dev Loss: 0.615, Dev_Accuracy: 75.35%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:83
+INFO:root:Epoch [82/300], Train_Loss: 0.744, Train_Accuracy: 71.29%, Dev Loss: 0.611, Dev_Accuracy: 75.47%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:84
+INFO:root:Epoch [83/300], Train_Loss: 0.744, Train_Accuracy: 71.43%, Dev Loss: 0.611, Dev_Accuracy: 75.38%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:85
+INFO:root:Epoch [84/300], Train_Loss: 0.743, Train_Accuracy: 71.41%, Dev Loss: 0.611, Dev_Accuracy: 75.26%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:86
+INFO:root:Epoch [85/300], Train_Loss: 0.742, Train_Accuracy: 71.43%, Dev Loss: 0.609, Dev_Accuracy: 75.50%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:87
+INFO:root:Epoch [86/300], Train_Loss: 0.741, Train_Accuracy: 71.45%, Dev Loss: 0.609, Dev_Accuracy: 75.51%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:88
+INFO:root:Epoch [87/300], Train_Loss: 0.741, Train_Accuracy: 71.58%, Dev Loss: 0.608, Dev_Accuracy: 75.53%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:89
+INFO:root:Epoch [88/300], Train_Loss: 0.740, Train_Accuracy: 71.55%, Dev Loss: 0.608, Dev_Accuracy: 75.38%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:90
+INFO:root:Epoch [89/300], Train_Loss: 0.739, Train_Accuracy: 71.61%, Dev Loss: 0.609, Dev_Accuracy: 75.35%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:91
+INFO:root:Epoch [90/300], Train_Loss: 0.738, Train_Accuracy: 71.62%, Dev Loss: 0.610, Dev_Accuracy: 75.56%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:92
+INFO:root:Epoch [91/300], Train_Loss: 0.738, Train_Accuracy: 71.73%, Dev Loss: 0.605, Dev_Accuracy: 75.51%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:93
+INFO:root:Epoch [92/300], Train_Loss: 0.737, Train_Accuracy: 71.71%, Dev Loss: 0.608, Dev_Accuracy: 75.13%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:94
+INFO:root:Epoch [93/300], Train_Loss: 0.736, Train_Accuracy: 71.85%, Dev Loss: 0.606, Dev_Accuracy: 75.53%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:95
+INFO:root:Epoch [94/300], Train_Loss: 0.736, Train_Accuracy: 71.83%, Dev Loss: 0.604, Dev_Accuracy: 75.81%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:96
+INFO:root:Epoch [95/300], Train_Loss: 0.735, Train_Accuracy: 71.84%, Dev Loss: 0.603, Dev_Accuracy: 75.83%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:97
+INFO:root:Epoch [96/300], Train_Loss: 0.734, Train_Accuracy: 71.84%, Dev Loss: 0.604, Dev_Accuracy: 75.60%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:98
+INFO:root:Epoch [97/300], Train_Loss: 0.733, Train_Accuracy: 71.83%, Dev Loss: 0.603, Dev_Accuracy: 75.53%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:99
+INFO:root:Epoch [98/300], Train_Loss: 0.733, Train_Accuracy: 71.98%, Dev Loss: 0.602, Dev_Accuracy: 75.56%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:100
+INFO:root:Epoch [99/300], Train_Loss: 0.732, Train_Accuracy: 71.89%, Dev Loss: 0.601, Dev_Accuracy: 75.87%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:101
+INFO:root:Epoch [100/300], Train_Loss: 0.731, Train_Accuracy: 72.01%, Dev Loss: 0.599, Dev_Accuracy: 75.88%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:102
+INFO:root:Epoch [101/300], Train_Loss: 0.731, Train_Accuracy: 72.05%, Dev Loss: 0.600, Dev_Accuracy: 75.89%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:103
+INFO:root:Epoch [102/300], Train_Loss: 0.730, Train_Accuracy: 72.09%, Dev Loss: 0.597, Dev_Accuracy: 76.01%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:104
+INFO:root:Epoch [103/300], Train_Loss: 0.730, Train_Accuracy: 72.15%, Dev Loss: 0.598, Dev_Accuracy: 75.75%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:105
+INFO:root:Epoch [104/300], Train_Loss: 0.729, Train_Accuracy: 72.22%, Dev Loss: 0.596, Dev_Accuracy: 76.08%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:106
+INFO:root:Epoch [105/300], Train_Loss: 0.728, Train_Accuracy: 72.17%, Dev Loss: 0.596, Dev_Accuracy: 75.95%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:107
+INFO:root:Epoch [106/300], Train_Loss: 0.728, Train_Accuracy: 72.30%, Dev Loss: 0.596, Dev_Accuracy: 75.74%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:108
+INFO:root:Epoch [107/300], Train_Loss: 0.727, Train_Accuracy: 72.28%, Dev Loss: 0.594, Dev_Accuracy: 76.09%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:109
+INFO:root:Epoch [108/300], Train_Loss: 0.726, Train_Accuracy: 72.37%, Dev Loss: 0.595, Dev_Accuracy: 75.67%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:110
+INFO:root:Epoch [109/300], Train_Loss: 0.726, Train_Accuracy: 72.30%, Dev Loss: 0.590, Dev_Accuracy: 76.35%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:111
+INFO:root:Epoch [110/300], Train_Loss: 0.725, Train_Accuracy: 72.44%, Dev Loss: 0.591, Dev_Accuracy: 76.11%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:112
+INFO:root:Epoch [111/300], Train_Loss: 0.725, Train_Accuracy: 72.41%, Dev Loss: 0.590, Dev_Accuracy: 76.06%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:113
+INFO:root:Epoch [112/300], Train_Loss: 0.724, Train_Accuracy: 72.52%, Dev Loss: 0.595, Dev_Accuracy: 75.85%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:114
+INFO:root:Epoch [113/300], Train_Loss: 0.723, Train_Accuracy: 72.54%, Dev Loss: 0.589, Dev_Accuracy: 76.48%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:115
+INFO:root:Epoch [114/300], Train_Loss: 0.723, Train_Accuracy: 72.43%, Dev Loss: 0.588, Dev_Accuracy: 76.50%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:116
+INFO:root:Epoch [115/300], Train_Loss: 0.722, Train_Accuracy: 72.57%, Dev Loss: 0.589, Dev_Accuracy: 76.34%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:117
+INFO:root:Epoch [116/300], Train_Loss: 0.722, Train_Accuracy: 72.58%, Dev Loss: 0.587, Dev_Accuracy: 76.46%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:118
+INFO:root:Epoch [117/300], Train_Loss: 0.721, Train_Accuracy: 72.63%, Dev Loss: 0.586, Dev_Accuracy: 76.49%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:119
+INFO:root:Epoch [118/300], Train_Loss: 0.720, Train_Accuracy: 72.59%, Dev Loss: 0.591, Dev_Accuracy: 76.23%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:120
+INFO:root:Epoch [119/300], Train_Loss: 0.720, Train_Accuracy: 72.60%, Dev Loss: 0.587, Dev_Accuracy: 76.24%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:121
+INFO:root:Epoch [120/300], Train_Loss: 0.719, Train_Accuracy: 72.61%, Dev Loss: 0.586, Dev_Accuracy: 76.72%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:122
+INFO:root:Epoch [121/300], Train_Loss: 0.719, Train_Accuracy: 72.67%, Dev Loss: 0.585, Dev_Accuracy: 76.67%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:123
+INFO:root:Epoch [122/300], Train_Loss: 0.718, Train_Accuracy: 72.80%, Dev Loss: 0.584, Dev_Accuracy: 76.63%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:124
+INFO:root:Epoch [123/300], Train_Loss: 0.718, Train_Accuracy: 72.78%, Dev Loss: 0.585, Dev_Accuracy: 76.40%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:125
+INFO:root:Epoch [124/300], Train_Loss: 0.717, Train_Accuracy: 72.76%, Dev Loss: 0.584, Dev_Accuracy: 76.46%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:126
+INFO:root:Epoch [125/300], Train_Loss: 0.717, Train_Accuracy: 72.85%, Dev Loss: 0.584, Dev_Accuracy: 76.80%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:127
+INFO:root:Epoch [126/300], Train_Loss: 0.716, Train_Accuracy: 72.88%, Dev Loss: 0.585, Dev_Accuracy: 76.59%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:128
+INFO:root:Epoch [127/300], Train_Loss: 0.716, Train_Accuracy: 72.83%, Dev Loss: 0.583, Dev_Accuracy: 76.71%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:129
+INFO:root:Epoch [128/300], Train_Loss: 0.715, Train_Accuracy: 72.86%, Dev Loss: 0.581, Dev_Accuracy: 76.81%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:130
+INFO:root:Epoch [129/300], Train_Loss: 0.715, Train_Accuracy: 72.91%, Dev Loss: 0.581, Dev_Accuracy: 76.73%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:131
+INFO:root:Epoch [130/300], Train_Loss: 0.714, Train_Accuracy: 72.91%, Dev Loss: 0.581, Dev_Accuracy: 76.65%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:132
+INFO:root:Epoch [131/300], Train_Loss: 0.713, Train_Accuracy: 72.96%, Dev Loss: 0.582, Dev_Accuracy: 76.63%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:133
+INFO:root:Epoch [132/300], Train_Loss: 0.713, Train_Accuracy: 73.01%, Dev Loss: 0.579, Dev_Accuracy: 76.63%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:134
+INFO:root:Epoch [133/300], Train_Loss: 0.712, Train_Accuracy: 72.98%, Dev Loss: 0.579, Dev_Accuracy: 77.06%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:135
+INFO:root:Epoch [134/300], Train_Loss: 0.712, Train_Accuracy: 73.02%, Dev Loss: 0.581, Dev_Accuracy: 76.55%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:136
+INFO:root:Epoch [135/300], Train_Loss: 0.711, Train_Accuracy: 73.10%, Dev Loss: 0.578, Dev_Accuracy: 76.81%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:137
+INFO:root:Epoch [136/300], Train_Loss: 0.711, Train_Accuracy: 73.11%, Dev Loss: 0.582, Dev_Accuracy: 76.60%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:138
+INFO:root:Epoch [137/300], Train_Loss: 0.711, Train_Accuracy: 72.88%, Dev Loss: 0.579, Dev_Accuracy: 77.01%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:139
+INFO:root:Epoch [138/300], Train_Loss: 0.710, Train_Accuracy: 72.95%, Dev Loss: 0.577, Dev_Accuracy: 76.74%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:140
+INFO:root:Epoch [139/300], Train_Loss: 0.710, Train_Accuracy: 73.01%, Dev Loss: 0.585, Dev_Accuracy: 76.49%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:141
+INFO:root:Epoch [140/300], Train_Loss: 0.709, Train_Accuracy: 73.05%, Dev Loss: 0.577, Dev_Accuracy: 76.87%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:142
+INFO:root:Epoch [141/300], Train_Loss: 0.709, Train_Accuracy: 73.00%, Dev Loss: 0.579, Dev_Accuracy: 76.84%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:143
+INFO:root:Epoch [142/300], Train_Loss: 0.708, Train_Accuracy: 73.02%, Dev Loss: 0.579, Dev_Accuracy: 76.78%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:144
+INFO:root:Epoch [143/300], Train_Loss: 0.708, Train_Accuracy: 73.10%, Dev Loss: 0.581, Dev_Accuracy: 77.09%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:145
+INFO:root:Epoch [144/300], Train_Loss: 0.707, Train_Accuracy: 73.14%, Dev Loss: 0.579, Dev_Accuracy: 76.75%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:146
+INFO:root:Epoch [145/300], Train_Loss: 0.707, Train_Accuracy: 73.11%, Dev Loss: 0.577, Dev_Accuracy: 76.96%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:147
+INFO:root:Epoch [146/300], Train_Loss: 0.706, Train_Accuracy: 73.19%, Dev Loss: 0.575, Dev_Accuracy: 77.05%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:148
+INFO:root:Epoch [147/300], Train_Loss: 0.706, Train_Accuracy: 73.18%, Dev Loss: 0.576, Dev_Accuracy: 76.88%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:149
+INFO:root:Epoch [148/300], Train_Loss: 0.706, Train_Accuracy: 73.18%, Dev Loss: 0.578, Dev_Accuracy: 76.65%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:150
+INFO:root:Epoch [149/300], Train_Loss: 0.705, Train_Accuracy: 73.19%, Dev Loss: 0.576, Dev_Accuracy: 76.89%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:151
+INFO:root:Epoch [150/300], Train_Loss: 0.705, Train_Accuracy: 73.34%, Dev Loss: 0.570, Dev_Accuracy: 77.14%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:152
+INFO:root:Epoch [151/300], Train_Loss: 0.704, Train_Accuracy: 73.30%, Dev Loss: 0.574, Dev_Accuracy: 76.86%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:153
+INFO:root:Epoch [152/300], Train_Loss: 0.704, Train_Accuracy: 73.35%, Dev Loss: 0.576, Dev_Accuracy: 76.84%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:154
+INFO:root:Epoch [153/300], Train_Loss: 0.703, Train_Accuracy: 73.40%, Dev Loss: 0.570, Dev_Accuracy: 77.08%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:155
+INFO:root:Epoch [154/300], Train_Loss: 0.703, Train_Accuracy: 73.42%, Dev Loss: 0.571, Dev_Accuracy: 76.96%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:156
+INFO:root:Epoch [155/300], Train_Loss: 0.703, Train_Accuracy: 73.48%, Dev Loss: 0.571, Dev_Accuracy: 77.10%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:157
+INFO:root:Epoch [156/300], Train_Loss: 0.702, Train_Accuracy: 73.46%, Dev Loss: 0.570, Dev_Accuracy: 77.23%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:158
+INFO:root:Epoch [157/300], Train_Loss: 0.702, Train_Accuracy: 73.50%, Dev Loss: 0.570, Dev_Accuracy: 77.45%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:159
+INFO:root:Epoch [158/300], Train_Loss: 0.701, Train_Accuracy: 73.52%, Dev Loss: 0.570, Dev_Accuracy: 77.28%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:160
+INFO:root:Epoch [159/300], Train_Loss: 0.701, Train_Accuracy: 73.59%, Dev Loss: 0.574, Dev_Accuracy: 76.98%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:161
+INFO:root:Epoch [160/300], Train_Loss: 0.701, Train_Accuracy: 73.54%, Dev Loss: 0.569, Dev_Accuracy: 77.33%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:162
+INFO:root:Epoch [161/300], Train_Loss: 0.700, Train_Accuracy: 73.55%, Dev Loss: 0.567, Dev_Accuracy: 77.64%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:163
+INFO:root:Epoch [162/300], Train_Loss: 0.700, Train_Accuracy: 73.61%, Dev Loss: 0.571, Dev_Accuracy: 77.10%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:164
+INFO:root:Epoch [163/300], Train_Loss: 0.699, Train_Accuracy: 73.63%, Dev Loss: 0.565, Dev_Accuracy: 77.42%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:165
+INFO:root:Epoch [164/300], Train_Loss: 0.699, Train_Accuracy: 73.64%, Dev Loss: 0.565, Dev_Accuracy: 77.27%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:166
+INFO:root:Epoch [165/300], Train_Loss: 0.699, Train_Accuracy: 73.66%, Dev Loss: 0.569, Dev_Accuracy: 77.30%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:167
+INFO:root:Epoch [166/300], Train_Loss: 0.698, Train_Accuracy: 73.75%, Dev Loss: 0.565, Dev_Accuracy: 77.41%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:168
+INFO:root:Epoch [167/300], Train_Loss: 0.698, Train_Accuracy: 73.79%, Dev Loss: 0.566, Dev_Accuracy: 77.71%
+INFO:root:model,dev accuracies and train accuracies were saved to files.
+INFO:root:epoch number:169
