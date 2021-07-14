@@ -1,6 +1,4 @@
-# Deep-Learning-for-Text-and-Sequences
-
-Deep Learning for Natural Langage Processing.
+# Deep Learning for Natural Langage Processing.
 
 Given a text dataset, we had to classify words over Part Of Speech (POS)tagging , and then over Named Entity Recognition (NER)tagging .
 
